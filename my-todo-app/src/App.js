@@ -7,12 +7,10 @@ function App() {
   const [todos, setTodos] = useState([
     { text: "Believe in the process!", isCompleted: false },
   ]);
-
   const addTodo = (text) => {
     const newTodos = [...todos, { text }];
     setTodos(newTodos);
   };
-
   const deleteTodo = (index) => {
     const newTodos = [...todos];
     newTodos.splice(index, 1);

@@ -13,7 +13,7 @@ function TodoForm({ addTodo }) {
     <form onSubmit={handleSubmit} className="todo-form">
       <input
         className="form-input"
-        placeholder='I wanna do this!'
+        placeholder=" I have to.."
         type="text"
         value={value}
         onChange={(e) => setValue(e.target.value)}
