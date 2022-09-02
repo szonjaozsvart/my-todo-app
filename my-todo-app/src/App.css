@@ -1,3 +1,24 @@
+@media only screen and (max-width: 600px) {
+  .wrapper {
+    max-width: 350px;
+  }
+  .allTodos {
+    max-width: 300px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .wrapper {
+    max-width: 280px;
+  }
+  .form-input {
+  max-width: 200px;
+  }
+  .allTodos {
+    max-width: 230px;
+  }
+}
+
 * {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
